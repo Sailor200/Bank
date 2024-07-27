@@ -17,7 +17,7 @@
         "pass": "b",
         "tran": [
             "2024-07-27 15:03:46.265046 deposit 500,balance = 500",
-            "2024-07-27 15:03:46.266207 received from SAI, 500,balance = 9000"
+            "2024-07-27 15:03:46.266207 received from SAI, 500,balance = 1000"
         ]
     }
 }

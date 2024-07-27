@@ -82,7 +82,7 @@ class Bank:
                 Bank.d[self.__current_account]['tran'].append(
                     f"{datetime.datetime.now()} transfer to {Bank.d[account2]['name']}, {amount},balance = {Bank.d[self.__current_account]['bal']}")
                 Bank.d[account2]['tran'].append(
-                    f"{datetime.datetime.now()} received from {Bank.d[self.__current_account]['name']}, {amount},balance = {Bank.d[self.__current_account]['bal']}")
+                    f"{datetime.datetime.now()} received from {Bank.d[self.__current_account]['name']}, {amount},balance = {Bank.d[account2]['bal']}")
 
                 print("Funds Transferred")
         else:
